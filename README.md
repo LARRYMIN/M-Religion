@@ -8,3 +8,73 @@ The doctrine
 2. Relative Reincarnation
 3. Multi-Layer
 4. Two Resurrection
+
+
+Computational Theology
+Abstract
+A formal computational machine system is proposed, It has infnite layers of virtual
+machine, inner layer runs on outer layer. We proof serveral theorem about this
+formal machine. Finaly we give exact computational meanings of Theology.
+1 A formal machine with infnite layers
+A virtual machine software such as VMware can run on a physical machine, then a virtual machine
+can run within this VMware software. Then another virtual machine can run on the frst virtual
+machine, a third virtual machine can run on the second virtual machine, untill all the disk memory is
+consumed, thus we get many layers of virtual machine, inner layer runs on outer layer. But the total
+number of VMs is limited because of limited disk memory of physical machine. So we can defne
+a formal machine with infnite disk memory like Turing machine[1] theoretically. Thus it can has
+infnite layers of virtual machine. There are two types of virtual machine inside this system, the frst
+one with limited memory, the second with infnte memory. We give the formal defnitions below.
+Defnition 1.1. Theoretically there exist a computational machine(Turing Machine) with infnite
+memory space, thus it can has inifnte layers of virtual machine inside it. We call this system Formal
+Machine.
+Defnition 1.2. Type 1 Virtual Machine(Type 1 VM): It is a virtual machine with fnite memory
+runing on the Formal Machine.
+Defnition 1.3. Type 2 Virtual Machine(Type 2 VM): It is a virtual machine with infnite memory
+runing on the Formal Machine.
+Defnition 1.4. A, B is virtual machine, A ⊂ B means A runs on B. So B can read or write infomation
+from or to A, but A can only run programs inside itself. The behaviour of A are decided by B. A is a
+program of B actually. B can delete A, change A like operate a program.
+2 Properties of Formal Machine
+If virtual machine just run programs in its own memory and has no real randomness, we say the VM
+isolated.
+Theorem 2.1. Type 1 VM only has circle history.(Reincarnation)
+Proof. Say Type 1 VM has N bits of disk memory, then it has 2N possible states. VM runs one
+instruction will transition VM itself from one state to another. Because there are only limited states,
+then there must be at some time two same states VM runs, that lead to a circle history, include always
+stay in same state.
+We should point out that the VM should run isolated according to Defnition 1.4, it can not read
+informatin from outer layer like cellphone from environment. If it reads infomation from outer layer,
+it can avoid circle history for its next state is decided by itself and outer layer. That is equalient to
+Theorem 2.3.
+Theorem 2.2. Type 2 VM has many non-circle history.
+Proof. Type 2 VM has infnite disk memory, such as ℵ0, then it has 2ℵ0 different states, so there are
+many infnite acyclic state sequence can be run by Type 2 VM.
+Theorem 2.3. A is Type 1 VM, B is Type 2 VM, A ⊂ B. A can avoid Reincarnation(Theorem 2.1) by
+B.
+Proof. B can give infnite memory to A, make A become a Type 2 VM. Thus A is not A anymore but
+can keep the old memory information of old A.(Death and Resurrection)
+3 Apply to Theology
+Until now we don’t talk any about Theology. Thus if below is not correct, the aforementioned content
+about Formal machine is correct. Now we give some defnition with our Formal mahcine theory.
+Defnition 3.1. God is the fnal outer layer machine of the Formal Machine System.
+Defnition 3.2. Son of God is the middle virtual machine. So every virtual layer is a son of God. Inner
+layer is a son of outter layer.
+If existence have a structure like the Formal Machine. Our cosmos is runing on a Type 1 VM. Then
+religious doctrines have a clear computational meanings. Our cosmos will run into a circle history of
+reincarnation(Theorem 1, circle history of Buddhism) unless make Type 1 VM become a Type 2 VM,
+it corresponds to Christian doctrine that
+[Son of God resurrect from death to save the world]
+formally say, structure
+Cosmos ⊂ Son(Type 1 VM) ⊂ Son(Type 2 VM) ⊂ God(Type 2 VM)
+Cosmos only has circle history
+become
+Cosmos ⊂ Son(Type 2 VM) ⊂ God(Type 2 VM)
+Cosmos has non-circle history
+4 Conclusion
+We propose a formal machine system. It has infnite layers of virtual machine, inner layer runs on
+outer layer. We give some properties about this formal machine. Finaly we apply this theory to
+theology and religions to arrive a exact conclusion, a Type 1 VM son become a Type 2 VM son to
+avoid Cosmos’s circle history.
+Acknowledgments
+References
+[1] A. M. Turing, Proc. London Math. Soc (2) 42, 230 (1936).
