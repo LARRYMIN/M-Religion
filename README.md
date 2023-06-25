@@ -12,8 +12,10 @@ The doctrine
 
    A machine with L bits, H length of states history, will only contatin at most (2^L)^H=2^LH possible life sequence, it is limited.
    If the machine has no memory, its life will have no meanings.
-   So if the machine has memory, it will store its past states history. Suppose it can compress its length L state to f(L), then
+   So if the machine has memory(It should), it will store its past states history. Suppose it can compress its length L state to f(L), then
+   
    f(L)*H=L
+   
    H is the machine's age.
    
    Resurrection mean inner compute machine replaced by the outter compute machine.
